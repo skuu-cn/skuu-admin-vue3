@@ -335,6 +335,56 @@ const remainingRouter: AppRouteRecordRaw[] = [
     ]
   },
   {
+    path: '/blog', // 博客中心
+    component: Layout,
+    name: 'BlogCenter',
+    meta: {
+      hidden: true
+    },
+    children: [
+      {
+        path: 'blog/add',
+        component: () => import('@/views/blog/blog/index.vue'),
+        name: 'BlogAdd',
+        meta: {
+          noCache: false, // 需要缓存
+          hidden: true,
+          canTo: true,
+          icon: 'ep:edit',
+          title: '博客添加',
+          activeMenu: '/blog/blog'
+        }
+      },
+      {
+        path: 'blog/edit/:id(\\d+)',
+        component: () => import('@/views/blog/blog/index.vue'),
+        name: 'BlogEdit',
+        meta: {
+          noCache: true,
+          hidden: true,
+          canTo: true,
+          icon: 'ep:edit',
+          title: '博客编辑',
+          activeMenu: '/blog/blog'
+        }
+      },
+      {
+        path: 'blog/detail/:id(\\d+)',
+        component: () => import('@/views/blog/blog/index.vue'),
+        name: 'BlogDetail',
+        meta: {
+          noCache: true,
+          hidden: true,
+          canTo: true,
+          icon: 'ep:view',
+          title: '博客详情',
+          activeMenu: '/blog/blog'
+        }
+      },
+    ]
+  },
+
+  {
     path: '/mall/product', // 商品中心
     component: Layout,
     name: 'ProductCenter',

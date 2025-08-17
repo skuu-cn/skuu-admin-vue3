@@ -383,6 +383,55 @@ const remainingRouter: AppRouteRecordRaw[] = [
       },
     ]
   },
+  {
+    path: '/blog', // 主题中心
+    component: Layout,
+    name: 'TopicCenter',
+    meta: {
+      hidden: true
+    },
+    children: [
+      {
+        path: 'topic/add',
+        component: () => import('@/views/blog/topic/index.vue'),
+        name: 'TopicAdd',
+        meta: {
+          noCache: false, // 需要缓存
+          hidden: true,
+          canTo: true,
+          icon: 'ep:edit',
+          title: '主题添加',
+          activeMenu: '/blog/topic'
+        }
+      },
+      {
+        path: 'blog/edit/:id(\\d+)',
+        component: () => import('@/views/blog/topic/index.vue'),
+        name: 'TopicEdit',
+        meta: {
+          noCache: true,
+          hidden: true,
+          canTo: true,
+          icon: 'ep:edit',
+          title: '主题编辑',
+          activeMenu: '/blog/topic'
+        }
+      },
+      {
+        path: 'blog/detail/:id(\\d+)',
+        component: () => import('@/views/blog/topic/index.vue'),
+        name: 'TopicDetail',
+        meta: {
+          noCache: true,
+          hidden: true,
+          canTo: true,
+          icon: 'ep:view',
+          title: '主题详情',
+          activeMenu: '/blog/topic'
+        }
+      },
+    ]
+  },
 
   {
     path: '/mall/product', // 商品中心

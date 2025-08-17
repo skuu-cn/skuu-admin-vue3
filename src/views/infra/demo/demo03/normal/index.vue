@@ -1,5 +1,5 @@
 <template>
-  <doc-alert title="代码生成（主子表）" url="https://doc.iocoder.cn/new-feature/master-sub/" />
+  <doc-alert title="代码生成（主子表）" url="https://qqai.cn/new-feature/master-sub/" />
 
   <ContentWrap>
     <!-- 搜索工作栏 -->

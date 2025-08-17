@@ -1,5 +1,5 @@
 <template>
-  <doc-alert title="自动回复" url="https://doc.iocoder.cn/mp/auto-reply/" />
+  <doc-alert title="自动回复" url="https://qqai.cn/mp/auto-reply/" />
 
   <!-- 搜索工作栏 -->
   <ContentWrap>

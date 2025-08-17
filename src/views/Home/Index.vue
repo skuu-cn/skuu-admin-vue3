@@ -65,7 +65,7 @@
             <el-link
               type="primary"
               :underline="false"
-              href="https://github.com/yudaocode"
+              href="https://github.com/qqaicode"
               target="_blank"
             >
               {{ t('action.more') }}
@@ -218,37 +218,37 @@ const getProject = async () => {
       time: new Date()
     },
     {
-      name: 'yudao-ui-admin-vue3',
+      name: 'qqai-ui-admin-vue3',
       icon: 'logos:vue',
-      message: 'https://github.com/yudaocode/yudao-ui-admin-vue3',
+      message: 'https://github.com/qqaicode/qqai-ui-admin-vue3',
       personal: 'Vue3 + element-plus',
       time: new Date()
     },
     {
-      name: 'yudao-ui-admin-vben',
+      name: 'qqai-ui-admin-vben',
       icon: 'logos:vue',
-      message: 'https://github.com/yudaocode/yudao-ui-admin-vben',
+      message: 'https://github.com/qqaicode/qqai-ui-admin-vben',
       personal: 'Vue3 + vben(antd)',
       time: new Date()
     },
     {
-      name: 'yudao-cloud',
+      name: 'qqai-cloud',
       icon: 'akar-icons:github',
-      message: 'https://github.com/YunaiV/yudao-cloud',
+      message: 'https://github.com/YunaiV/qqai-cloud',
       personal: 'Spring Cloud 微服务架构',
       time: new Date()
     },
     {
-      name: 'yudao-ui-mall-uniapp',
+      name: 'qqai-ui-mall-uniapp',
       icon: 'logos:vue',
-      message: 'https://github.com/yudaocode/yudao-ui-admin-uniapp',
+      message: 'https://github.com/qqaicode/qqai-ui-admin-uniapp',
       personal: 'Vue3 + uniapp',
       time: new Date()
     },
     {
-      name: 'yudao-ui-admin-vue2',
+      name: 'qqai-ui-admin-vue2',
       icon: 'logos:vue',
-      message: 'https://github.com/yudaocode/yudao-ui-admin-vue2',
+      message: 'https://github.com/qqaicode/qqai-ui-admin-vue2',
       personal: 'Vue2 + element-ui',
       time: new Date()
     }

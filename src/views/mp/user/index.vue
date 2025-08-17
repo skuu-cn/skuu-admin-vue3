@@ -1,5 +1,5 @@
 <template>
-  <doc-alert title="公众号粉丝" url="https://doc.iocoder.cn/mp/user/" />
+  <doc-alert title="公众号粉丝" url="https://qqai.cn/mp/user/" />
 
   <!-- 搜索工作栏 -->
   <ContentWrap>

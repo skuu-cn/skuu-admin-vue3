@@ -3,7 +3,7 @@
   <div class="chat-empty">
     <!-- title -->
     <div class="center-container">
-      <div class="title">芋道 AI</div>
+      <div class="title">qqai AI</div>
       <div class="role-list">
         <div
           class="role-item"
@@ -56,8 +56,7 @@ const handlerPromptClick = async ({ prompt }) => {
 
     .role-list {
       display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+      flex-flow: row wrap;
       align-items: center;
       justify-content: center;
       width: 460px;
@@ -65,17 +64,17 @@ const handlerPromptClick = async ({ prompt }) => {
 
       .role-item {
         display: flex;
-        justify-content: center;
         width: 180px;
+        margin: 10px;
         line-height: 50px;
+        cursor: pointer;
         border: 1px solid #e4e4e4;
         border-radius: 10px;
-        margin: 10px;
-        cursor: pointer;
+        justify-content: center;
       }
 
       .role-item:hover {
-        background-color: rgba(243, 243, 243, 0.73);
+        background-color: rgb(243 243 243 / 73%);
       }
     }
   }

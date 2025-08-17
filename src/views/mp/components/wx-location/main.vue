@@ -13,7 +13,7 @@
         locationX +
         '&name=' +
         label +
-        '&ref=yudao'
+        '&ref=qqai'
       "
     >
       <el-col>

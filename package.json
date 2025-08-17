@@ -1,9 +1,10 @@
 {
-  "name": "yudao-ui-admin-vue3",
+  "name": "qqai-ui-admin-vue3",
   "version": "2.3.0-snapshot",
   "description": "基于vue3、vite4、element-plus、typesScript",
   "author": "xingyu",
   "private": false,
+  "packageManager": "pnpm@10.7.1",
   "scripts": {
     "i": "pnpm install",
     "dev": "vite --mode env.local",
@@ -89,7 +90,8 @@
     "@types/qs": "^6.9.12",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^7.1.0",
-    "@unocss/eslint-config": "^0.57.4",
+    "@unocss/eslint-config": "^0.57.7",
+    "@unocss/eslint-plugin": "^66.4.2",
     "@unocss/transformer-variant-group": "^0.58.5",
     "@vitejs/plugin-legacy": "^5.3.1",
     "@vitejs/plugin-vue": "^5.0.4",
@@ -137,12 +139,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://gitee.com/yudaocode/yudao-ui-admin-vue3"
+    "url": "git+https://gitee.com/qqaicode/qqai-ui-admin-vue3"
   },
   "bugs": {
-    "url": "https://gitee.com/yudaocode/yudao-ui-admin-vue3/issues"
+    "url": "https://gitee.com/qqaicode/qqai-ui-admin-vue3/issues"
   },
-  "homepage": "https://gitee.com/yudaocode/yudao-ui-admin-vue3",
+  "homepage": "https://gitee.com/qqaicode/qqai-ui-admin-vue3",
   "engines": {
     "node": ">= 16.0.0",
     "pnpm": ">=8.6.0"

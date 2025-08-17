@@ -10,15 +10,15 @@
 ## 🐶 新手必读
 
 * nodejs > 16.18.0 && pnpm > 8.6.0 (强制使用pnpm)
-* 演示地址【Vue3 + element-plus】：<http://dashboard-vue3.yudao.iocoder.cn>
-* 演示地址【Vue3 + vben(ant-design-vue)】：<http://dashboard-vben.yudao.iocoder.cn>
-* 演示地址【Vue2 + element-ui】：<http://dashboard.yudao.iocoder.cn>
-* 启动文档：<https://doc.iocoder.cn/quick-start/>
-* 视频教程：<https://doc.iocoder.cn/video/>
+* 演示地址【Vue3 + element-plus】：<http://dashboard-vue3.qqai.iocoder.cn>
+* 演示地址【Vue3 + vben(ant-design-vue)】：<http://dashboard-vben.qqai.iocoder.cn>
+* 演示地址【Vue2 + element-ui】：<http://dashboard.qqai.iocoder.cn>
+* 启动文档：<https://qqai.cn/quick-start/>
+* 视频教程：<https://qqai.cn/video/>
 
 ## 🐯 平台简介
 
-**芋道**，以开发者为中心，打造中国第一流的快速开发平台，全部开源，个人与企业可 100% 免费使用。
+**qqai**，以开发者为中心，打造中国第一流的快速开发平台，全部开源，个人与企业可 100% 免费使用。
 
 * 采用 [vue-element-plus-admin](https://gitee.com/kailong110120130/vue-element-plus-admin) 实现
 * 改换 saas，自动引入等功能
@@ -73,9 +73,9 @@
 
 ![架构图](/.image/common/ruoyi-vue-pro-architecture.png)
 
-② Spring Cloud 微服务架构：<https://github.com/YunaiV/yudao-cloud>
+② Spring Cloud 微服务架构：<https://github.com/YunaiV/qqai-cloud>
 
-![架构图](/.image/common/yudao-cloud-architecture.png)
+![架构图](/.image/common/qqai-cloud-architecture.png)
 
 ## 内置功能
 
@@ -191,7 +191,7 @@ ps：核心功能已经实现，正在对接微信小程序中...
 
 ### 商城系统
 
-演示地址：<https://doc.iocoder.cn/mall-preview/>
+演示地址：<https://qqai.cn/mall-preview/>
 
 ![功能图](/.image/common/mall-feature.png)
 
@@ -199,13 +199,13 @@ ps：核心功能已经实现，正在对接微信小程序中...
 
 ### ERP 系统
 
-演示地址：<https://doc.iocoder.cn/erp-preview/>
+演示地址：<https://qqai.cn/erp-preview/>
 
 ![功能图](/.image/common/erp-feature.png)
 
 ### CRM 系统
 
-演示地址：<https://doc.iocoder.cn/crm-preview/>
+演示地址：<https://qqai.cn/crm-preview/>
 
 ![功能图](/.image/common/crm-feature.png)
 

@@ -1,5 +1,5 @@
 <template>
-  <doc-alert title="【营销】拼团活动" url="https://doc.iocoder.cn/mall/promotion-combination/" />
+  <doc-alert title="【营销】拼团活动" url="https://qqai.cn/mall/promotion-combination/" />
 
   <ContentWrap>
     <!-- 搜索工作栏 -->

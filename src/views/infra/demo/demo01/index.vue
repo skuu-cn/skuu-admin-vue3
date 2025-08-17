@@ -1,5 +1,5 @@
 <template>
-  <doc-alert title="代码生成（单表）" url="https://doc.iocoder.cn/new-feature/" />
+  <doc-alert title="代码生成（单表）" url="https://qqai.cn/new-feature/" />
 
   <ContentWrap>
     <!-- 搜索工作栏 -->

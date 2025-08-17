@@ -1,5 +1,5 @@
 <template>
-  <doc-alert title="【产品】产品信息、分类、单位" url="https://doc.iocoder.cn/erp/product/" />
+  <doc-alert title="【产品】产品信息、分类、单位" url="https://qqai.cn/erp/product/" />
 
   <ContentWrap>
     <!-- 搜索工作栏 -->

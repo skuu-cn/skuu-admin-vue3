@@ -75,7 +75,7 @@ export default ({command, mode}: ConfigEnv): UserConfig => {
             rollupOptions: {
                 output: {
                     manualChunks: {
-                        echarts: ['echarts'] // 将 echarts 单独打包，参考 https://gitee.com/yudaocode/yudao-ui-admin-vue3/issues/IAB1SX 讨论
+                        echarts: ['echarts'] // 将 echarts 单独打包，参考 https://gitee.com/qqaicode/qqai-ui-admin-vue3/issues/IAB1SX 讨论
                     }
                 },
             },

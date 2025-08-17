@@ -1,5 +1,5 @@
 <template>
-  <doc-alert title="流程表达式" url="https://doc.iocoder.cn/bpm/expression/" />
+  <doc-alert title="流程表达式" url="https://qqai.cn/bpm/expression/" />
 
   <ContentWrap>
     <!-- 搜索工作栏 -->
